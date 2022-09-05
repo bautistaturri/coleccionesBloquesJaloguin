@@ -8,11 +8,11 @@ test "La tolerancia disminuye en 1 al ser asustado" {
 	assert.equals(21,mirca.tolerancia())
 }
 
+
 test "La tolerancia disminuye incluso si el mismo ninio lo asusta muchas veces" {
 	mirca.serAsustadoPor(macaria)
-	mirca.serAsustadoPor(pedro)
-	mirca.serAsustadoPor(pedro)
-	mirca.serAsustadoPor(pedro)
+	mirca.serAsustadoPor(mariana)
+	mirca.serAsustadoPor(pancrasio)
 	assert.equals(18,mirca.tolerancia())
 }
 
